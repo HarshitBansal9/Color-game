@@ -1,0 +1,77 @@
+.div-container{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+}
+.header-box{
+    display:flex;
+    height:200px; 
+    background-color: rgb(68, 126, 219);
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    color:white;
+}
+.option-box{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height:40px;
+}
+.NewColors{
+    height:100%;
+    width:100px;
+    background-color:white;
+    color:rgb(68, 126, 219);
+    font-size:15px;
+    border:white;
+}
+.NewColors:hover{
+    background-color:rgb(68, 126, 219);
+    color:white;
+    cursor:pointer;
+}
+.NewColors:active{
+    color:rgb(68, 126, 219);
+    background-color: white;
+}
+.game-box{
+    background-color: rgb(15, 15, 15);
+    height:550px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.buttons{
+    width:200px;
+    height:190px;
+    border:2px solid black;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    border-bottom-left-radius:25px;  
+}
+.buttons:hover{
+    filter:brightness(120%);
+    cursor: pointer;
+}
+.buttons:active{
+    filter: brightness(80%);
+}
+.rgb-answer{
+    color:white;
+    font-family: monospace;
+    font-size: 25px;
+}
+.result{
+    color:white;
+    font-family: monospace;
+    font-size: 25px;
+}   
+.choose-new-colors{
+    color:white;
+    font-family: monospace;
+    font-size: 25px;
+}
